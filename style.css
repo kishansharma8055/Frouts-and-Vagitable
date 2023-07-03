@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #6baf4c;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.quantity-input {
+    width: 40px;
+}
+
+.success-msg {
+    color: green;
+}
+
+.error-msg {
+    color: red;
+}
+
+/* 
+
+
+
+*/
+
+
+.visually-hidden {
+    background-color: blue;
+}
+
+#btns {
+    background-color: rgb(46, 73, 196);
+    color: white;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 0 auto; */
+}
+
+.data {
+    margin: 5px px;
+    padding: 10px;
+}
+
+.container img {
+    /* padding: 5px; */
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/*------------- Footer section styling starts ------------*/
+footer {
+    padding: 8vw;
+    background-color: #cac0c0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col {
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li {
+    list-style: none;
+    color: #000000;
+    padding: 5px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover {
+    color: rgb(202, 138, 138);
+}
+
+footer p {
+    color: #ffff01;
+}
+
+footer .subscribe {
+    margin-top: 20px;
+}
+
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background: #000000;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+
+footer .subscribe a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: rgb(150, 116, 116);
+    font-weight: 600;
+}
+
+footer .subscribe a.yellow {
+    color: rgb(0, 0, 0);
+    background: #fdc93b;
+    transition: 0.3s ease;
+}
+
+footer .subscribe a.yellow:hover {
+    color: rgb(21, 21, 100);
+    background: #fff;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .copyright p,
+footer .copyright p>a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+footer .copyright .pro-links {
+    margin-top: 0px;
+}
+
+footer .copyright .pro-links i {
+    background-color: #5f7185;
+    color: #fff;
+}
+
+footer .copyright .pro-links i:hover {
+    background: #fdc93b;
+    color: #2c2c2c;
+}
+
+/*------------- Footer section styling ends ------------*/
+
+/* media quary */
+
+@media screen and (max-width: 995px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
